@@ -1,4 +1,5 @@
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 // Nested 
 // const heading = React.createElement(
 //     "div", 
@@ -22,8 +23,8 @@ const heading = React.createElement(
         "div", 
         { id: "child" }, 
         [
-            React.createElement("h1", { id: "1t" }, "Hello!!!!"),
-            React.createElement("h1", { id: "2" }, "Hello!!!!!")
+            React.createElement("h1", { id: "1t" }, "Hello!!!!!!!!!!!!"),
+            React.createElement("h1", { id: "2" }, "Hello!!!")
         ]
     )
 );
